@@ -15,7 +15,7 @@ public class SFXPostProcessor : AssetPostprocessor {
             }
             if (assetPath.Contains("SFX"))
             {
-                audioImporter.loadType = AudioImporterLoadType.DecompressOnLoad;
+                //audioImporter.loadType = AudioClipLoadType.DecompressOnLoad;
             }
         }
     }
